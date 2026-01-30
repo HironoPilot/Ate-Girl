@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ate Girl PH</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="broom.png" type="image/x-icon">
+
+  </head>
+  <body>
+    <header>
+        <h1>Get a Quote!</h1>
+        <nav aria-label="primary-navigation">
+        <ul>
+            <li> <a href="index.html#about">About Ate Girl</a></li>
+            <li> <a href="index.html#services">Our Services </a></li>
+            <li> <a href="hours.html">Business Hours </a></li>
+            <li> <a href="contact.html">Contact Us </a></li>
+        </ul>
+        </nav>
+
+    </header>
+    <main> 
+
+      <figure>
+      <img src="4.png" width="400" height="400" alt="a woman holding a bucket containing cleaning materials and a feather duster. she is wearing a blue shirt and yellow gloves">
+      <figcaption>Ang Ate na Walang Arte!</figcaption>
+       </figure>
+      
+    </main>
+    <hr>
+    <article id="about"> 
+    <h2>Know our prices!</h2>
+ <form>
+    <fieldset>
+        <legend> 
+            Get a quote
+        </legend>
+        <label for="sqm">How many square meters?</label>
+            <input type="number" id="sqm" name="sqm" value="20" min="20" max="80"> <br>
+            <label for="floor">How many floors?</label>
+            <input type="number" id="floor" name="floor" value="1"> <br>
+            <label for="ates">How many ates do you need?</label>
+            <input type="number" id="ates" name="ates" value="1"> <br>
+
+       <!--test JS-->  <p>Duration: <span id="hours" aria-live="polite">0</span> hours</p>
+        <p>Total price: PHP <span id="total" aria-live="polite">0</span></p>
+    </fieldset>
+ </form>
+ <footer>
+        <p><a href="#">Back to Top</a></p>
+      <hr>
+  &copy; Lorraine
+    </footer>
+    <!--test JS-->
+<script src="script.js" defer></script>
+
+      </body>
+  </html>
